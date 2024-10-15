@@ -6,13 +6,10 @@ body {
 }
 
 header {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-image: url(https://assets-global.website-files.com/62af52c…/62b6523…_Line%201.svg);
-    background-repeat: no-repeat;
-    background-position-x: 50%;
-    background-position-y: 100%;
+    background-color: #778a35;
+    color: #ebebe8;
+    padding: 10px 0;
+    text-align: center;
 }
 
 header h1 {
