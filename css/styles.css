@@ -22,6 +22,25 @@ header h1 {
     letter-spacing: 3px;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: none;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -59,6 +78,7 @@ footer {
 
 button {
     background-color: #e38da0;
+    color: white;
     padding: 15px 30px;
     font-family: 'Garamond';
     font-size: 18px;
