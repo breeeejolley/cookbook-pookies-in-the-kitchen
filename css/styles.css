@@ -66,6 +66,13 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #e04e4e;
+button {
+    background-color: #ff5757;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Add space above the button */
 }
