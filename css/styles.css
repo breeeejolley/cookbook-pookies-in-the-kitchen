@@ -112,8 +112,8 @@ footer {
 }
 
 button {
-    background-color: #e38da0;
-    color: #fff;
+    background-color: #31352e;
+    color: #fff; /* This sets the color for the button text */
     padding: 15px 30px;
     font-family: 'Garamond';
     font-size: 18px;
@@ -123,4 +123,9 @@ button {
     transition: background-color 0.3s ease;
     margin-top: 20px;
     border-radius: 12px;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
 }
