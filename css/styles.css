@@ -53,7 +53,7 @@ footer {
     background-color: #778a35;
     color: #ebebe8;
     width: 100%;
-    position: relative; /* Changed from absolute to relative */
+    position: fixed; /* Changed from absolute to relative */
     bottom: 0;
 }
 
