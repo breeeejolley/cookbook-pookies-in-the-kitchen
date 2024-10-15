@@ -47,6 +47,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin: 0 20px;
+    padding-bottom: 10px;
 }
 
 nav ul li a {
@@ -66,6 +67,7 @@ ul {
 ul li {
     display: inline-block;
     margin: 0 20px;
+    padding-bottom: 10px;
 }
 
 ul li a {
