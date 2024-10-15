@@ -23,12 +23,19 @@ header {
 }
 
 header h1 {
-    font-size: 48px;
+    font-size: 48px; /* Larger font for desktop */
     font-weight: bold;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 3px;
     padding-bottom: 15px;
+}
+
+/* Responsive style for smaller screens (mobile) */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 28px; /* Smaller font for mobile */
+    }
 }
 
 nav ul {
