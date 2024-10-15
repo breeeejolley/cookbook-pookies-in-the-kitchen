@@ -67,3 +67,4 @@ button {
     transition: background-color 0.3s ease;
     margin-top: 20px; /* Add space above the button */
 }
+.button1 {border-radius: 12px;}
