@@ -76,8 +76,20 @@ section {
 }
 
 img {
-    max-width: 99%;
+    max-width: 500px; /* Limit image width for larger screens */
     max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+/* Responsive style for smaller screens (mobile) */
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 99%; /* Make the image fit smaller screens */
+        height: auto;
+    }
 }
 
 footer {
