@@ -76,7 +76,8 @@ section {
 }
 
 img {
-    padding-top: 30px;
+    max-width: 99%;
+    max-height: 99%;
 }
 
 footer {
