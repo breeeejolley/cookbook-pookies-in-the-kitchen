@@ -77,7 +77,7 @@ section {
 
 img {
     max-width: 99%;
-    max-height: 99%;
+    max-height: auto;
 }
 
 footer {
