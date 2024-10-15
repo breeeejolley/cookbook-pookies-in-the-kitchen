@@ -7,11 +7,19 @@ body {
     min-height: 100vh;
 }
 
+div {
+    padding-bottom: 20px;
+}
+
 header {
     background-color: #778a35;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 
 header h1 {
@@ -20,6 +28,7 @@ header h1 {
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 3px;
+    padding-bottom: 15px;
 }
 
 nav ul {
@@ -62,8 +71,12 @@ ul li a {
 
 section {
     text-align: center;
-    padding: 50px 20px;
+    padding: 20px 50px 80px 50px;
     min-height: 60vh; /* Adjust content height */
+}
+
+img {
+    padding-top: 30px;
 }
 
 footer {
@@ -78,7 +91,7 @@ footer {
 
 button {
     background-color: #e38da0;
-    color: white;
+    color: #fff;
     padding: 15px 30px;
     font-family: 'Garamond';
     font-size: 18px;
@@ -86,6 +99,6 @@ button {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 20px; /* Add space above the button */
+    margin-top: 20px;
+    border-radius: 12px;
 }
-.button1 {border-radius: 12px;}
