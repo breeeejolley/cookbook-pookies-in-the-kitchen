@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Garamond';
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #778a35;
     color: #fff;
     padding: 20px 0;
     text-align: center;
