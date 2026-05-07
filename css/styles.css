@@ -185,6 +185,8 @@ button a {
 
 .recipe-card img {
     width: 100%;
+    max-width: none;
+
     height: 220px;
 
     object-fit: cover;
