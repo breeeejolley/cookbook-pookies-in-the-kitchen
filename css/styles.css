@@ -90,16 +90,21 @@ ul li a {
 section {
     text-align: center;
     padding: 20px 50px 80px 50px;
-    min-height: 60vh; /* Adjust content height */
+    min-height: 60vh;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        padding: 20px;
+    }
 }
 
 img {
-    max-width: 500px; /* Limit image width for larger screens */
-    max-height: auto;
+    max-width: 500px;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
 }
 
 /* Responsive style for smaller screens (mobile) */
@@ -116,7 +121,7 @@ footer {
     background-color: #778a35;
     color: #ebebe8;
     width: 100%;
-    position: fixed; /* Changed from absolute to relative */
+    position: relative; /* Changed from absolute to relative */
     bottom: 0;
 }
 
