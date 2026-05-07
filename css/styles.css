@@ -11,6 +11,10 @@ div {
     padding-bottom: 20px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 header {
     background-color: #778a35;
     color: #fff;
@@ -176,10 +180,9 @@ button a {
 
   object-fit: cover;
 
-  transition: transform 0.3s ease;
+  display: block;
 
-  background: #fffaf5;
-  border: 1px solid #f1e4d8;
+  transition: transform 0.3s ease;
 }
 
 .recipe-content {
