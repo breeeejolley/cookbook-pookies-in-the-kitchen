@@ -1,18 +1,23 @@
 body {
     font-family: 'Garamond';
+
     margin: 0;
     padding: 0;
+
     background-color: #EFEED8;
     color: #31352e;
-    min-height: 100vh;
-}
 
-div {
-    padding-bottom: 20px;
+    min-height: 100vh;
+
+    overflow-x: hidden;
 }
 
 * {
   box-sizing: border-box;
+}
+
+div {
+    padding-bottom: 20px;
 }
 
 header {
